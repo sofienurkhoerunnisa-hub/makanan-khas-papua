@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makanan Khas Papua</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #00695c;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h2 {
+            margin-top: 0;
+            color: #00695c;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Makanan Khas Papua</h1>
+        <p>Menikmati cita rasa unik dari ujung timur Indonesia</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="K.jpg" alt="Papeda">
+            <div class="card-content">
+                <h2>Papeda</h2>
+                <p>Papeda adalah bubur sagu khas Papua yang memiliki tekstur lengket dan disajikan dengan ikan kuah kuning. Rasanya gurih dan segar.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="O.jpg" alt="Ikan Kuah Kuning">
+            <div class="card-content">
+                <h2>Ikan Kuah Kuning</h2>
+                <p>Ikan kuah kuning adalah hidangan ikan khas Papua yang dimasak dengan kunyit, serai, dan rempah-rempah yang menghasilkan kuah berwarna kuning cerah.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Z.jpg" alt="Sate Ulat Sagu">
+            <div class="card-content">
+                <h2>Sate Ulat Sagu</h2>
+                <p>Sate ulat sagu terbuat dari ulat sagu yang ditusuk dan dibakar. Makanan ini mengandung banyak protein dan menjadi kuliner ekstrem khas Papua.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="SS.jpg" alt="Kue Lontar">
+            <div class="card-content">
+                <h2>Kue Lontar</h2>
+                <p>Kue lontar merupakan kue khas Papua yang mirip dengan pie susu. Teksturnya lembut dan manis, sering disajikan saat hari raya.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Makanan Khas Papua | Dibuat dengan ❤️ oleh [Nama Anda]</p>
+    </footer>
+</body>
+</html>
